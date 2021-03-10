@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Se debe realizar el registro de usuario" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-10T04:06:00" hostname="CHBOGP1FD7XS2" time="26.147">
+  <properties/>
+  <testcase name="Regitrar usuario compras" classname="Se debe realizar el registro de usuario" time="26.147"/>
+  <system-out><![CDATA[Característica: Se debe realizar el registro de usuario
+
+  Escenario: Regitrar usuario compras                ?[90m# src/test/resources/features/search/Form/Form.feature:4?[0m
+23:06:00.438 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Regitrar usuario compras(se-debe-realizar-el-registro-de-usuario;regitrar-usuario-compras)
+-------------------------------------------------------------------
+    ?[32mDado ?[0m?[32m?[0m?[32m?[1myesica?[0m?[32m entra a la pagina para registrarse?[0m   ?[90m# RegistoStepDefinitions.entra_a_la_pagina_para_registrarse(String)?[0m
+23:06:01.576 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+23:06:01.576 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mCuando ?[0m?[32mingresa su informacion personal?[0m           ?[90m# RegistoStepDefinitions.ingresa_su_informacion_personal()?[0m
+    ?[32mEntonces ?[0m?[32mpodra ver la informacion de su registro?[0m ?[90m# RegistoStepDefinitions.podra_ver_la_informacion_de_su_registro()?[0m
+]]></system-out>
+  <system-err><![CDATA[mar 09, 2021 11:06:01 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 41350
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 09, 2021 11:06:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
